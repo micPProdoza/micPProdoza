@@ -1,4 +1,4 @@
-![Ampy Eyes](assets/ampyEyesCandy.svg)
+<img src="assets/ampyEyesCandy.svg" width="300" alt="Ampy Eyes">
 
 ✦ фармлю ауру в цпп ✦
 

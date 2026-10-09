@@ -1,0 +1,346 @@
+<svg xmlns="http://www.w3.org/2000/svg" 
+    width="800" height="300" viewBox="0 0 800 300">
+
+<defs>
+    <g id="pixel">
+        <rect 
+            width="24" height="24" 
+            rx="5" 
+            fill="#ef64a8" 
+            stroke="#dc2774" stroke-width="3"
+        />
+        <rect 
+            x="5" y="4" 
+            width="5" height="5" 
+            rx="2" 
+            fill="#ffd0e7"
+        />
+    </g>
+
+    <g id="minipixel">
+        <rect 
+            width="3" height="3"
+            rx="2" ry="2"
+            fill="#fe0d82"
+        />
+    </g>
+
+    <g id="textPixel">
+        <rect 
+            width="11" height="11"
+            rx="5" ry="5"
+            fill="#ff3488"
+            stroke="rgb(249, 4, 4)" stroke-width="1"
+        />
+    </g>
+
+    <g id="textLine3px">
+        <use href="#textPixel" x="0" y="0"/>
+        <use href="#textPixel" x="0" y="16"/>
+        <use href="#textPixel" x="0" y="32"/>
+    </g>
+
+    <g id="textLine2px">
+        <use href="#textPixel" x="0" y="0"/>
+        <use href="#textPixel" x="0" y="16"/>
+    </g>
+
+    <g id="plus">
+        <use href="#textPixel" x="0" y="16"/>
+        <use href="#textPixel" x="32" y="16"/>
+        <use href="#textLine3px" x="16" y="0"/>    
+    </g>
+
+    <g id="o">
+        <use href="#textLine3px" x="0" y="16"/>
+        <use href="#textLine3px" x="48" y="16"/>
+        <use href="#textLine2px" x="16" y="0" transform="rotate(-90 21.5 5.5)"/>
+        <use href="#textLine2px" x="16" y="64" transform="rotate(-90 21.5 69.5)"/>
+    </g>
+
+    <g id="m">
+        <use href="#textLine3px" x="0" y="0"/>
+        <use href="#textLine2px" x="0" y="48"/>
+        <use href="#textPixel" x="16" y="16"/>
+        <use href="#textLine2px" x="32" y="32"/>
+        <use href="#textPixel" x="48" y="16"/>
+        <use href="#textLine3px" x="64" y="0"/>
+        <use href="#textLine2px" x="64" y="48"/>
+    </g>
+
+    <g id="i">
+        <use href="#textLine3px" x="0" y="32"/>
+        <use href="#textPixel" x="0" y="0"/>
+    </g>
+
+    <g id="c">
+        <use href="#textLine3px" x="0" y="16"/>
+        <use href="#textLine2px" x="16" y="0" transform="rotate(-90 21.5 5.5)"/>
+        <use href="#textLine2px" x="16" y="64" transform="rotate(-90 21.5 69.5)"/>
+        <use href="#textPixel" x="48" y="16"/>
+        <use href="#textPixel" x="48" y="48"/>
+    </g>
+
+    <g id="r">
+        <use href="#textLine3px" x="0" y="0"/>
+        <use href="#textLine2px" x="0" y="48"/>
+        <use href="#textLine2px" x="32" y="16"/>
+        <use href="#textPixel" x="16" y="0"/>
+        <use href="#textLine2px" x="16" y="32"/>
+        <use href="#textPixel" x="32" y="64"/>
+        
+    </g>
+
+    <g id="d">
+        <use href="#o" x="0" y="0"/>
+        <use href="#textPixel" x="0" y="0"/>
+        <use href="#textPixel" x="0" y="64"/>
+        
+    </g>
+
+    <g id="z">
+        <use href="#textLine3px" x="0" y="0" transform="rotate(-90 5.5 5.5)"/>
+        <use href="#textLine3px" x="0" y="64" transform="rotate(-90 5.5 69.5)"/>
+        <use href="#textPixel" x="0" y="48"/>
+        <use href="#textPixel" x="16" y="32"/>
+        <use href="#textPixel" x="32" y="16"/>
+    </g>
+
+    <g id="a">
+        <use href="#textLine3px" x="0" y="32"/>
+        <use href="#textLine3px" x="48" y="32"/>
+        <use href="#textLine2px" x="16" y="0" transform="rotate(-90 21.5 5.5)"/>
+        <use href="#textPixel" x="0" y="16"/>
+        <use href="#textPixel" x="48" y="16"/>
+        <use href="#textLine2px" x="16" y="32" transform="rotate(-90 21.5 37.5)"/>
+    </g>
+
+    <g id="nikname">
+        <use href="#m" x="0" y="0"/>
+        <use href="#i" x="105" y="0"/>
+        <use href="#c" x="140" y="0"/>
+        <use href="#plus" x="215" y="15"/>
+        <use href="#plus" x="270" y="15"/>
+        <use href="#r" x="330" y="0"/>
+        <use href="#o" x="395" y="0"/>
+        <use href="#d" x="470" y="0"/>
+        <use href="#o" x="545" y="0"/>
+        <use href="#z" x="625" y="0"/>
+        <use href="#a" x="685" y="0"/>
+    </g>
+
+    <g id="miniline">
+        <use href="#minipixel" x="0" y="0"/>
+        <use href="#minipixel" x="3" y="0"/>
+        <use href="#minipixel" x="6" y="0"/>
+        <use href="#minipixel" x="9" y="0"/>
+        <use href="#minipixel" x="12" y="0"/>
+        <use href="#minipixel" x="15" y="0"/>
+        <use href="#minipixel" x="18" y="0"/>
+        <use href="#minipixel" x="21" y="0"/>
+    </g>
+
+    <g id="ball">
+        <use href="#minipixel" x="3" y="0"/>
+        <use href="#minipixel" x="6" y="0"/>
+        <use href="#minipixel" x="0" y="3"/>
+        <use href="#minipixel" x="9" y="3"/>
+        <use href="#minipixel" x="0" y="6"/>
+        <use href="#minipixel" x="9" y="6"/>
+        <use href="#minipixel" x="3" y="9"/>
+        <use href="#minipixel" x="6" y="9"/>
+        
+    </g>
+
+    <g id="fuck">
+        <use href="#minipixel" x="6" y="0"/>
+        <use href="#minipixel" x="9" y="0"/>
+        <use href="#minipixel" x="12" y="0"/>
+        <use href="#minipixel" x="9" y="3"/>
+        <use href="#miniline" x="3" y="3" transform="rotate(90 4.5 4.5)"/>
+        <use href="#miniline" x="15" y="3" transform="rotate(90 16.5 4.5)"/>
+        <use href="#minipixel" x="6" y="6"/>
+        <use href="#minipixel" x="9" y="6"/>
+        <use href="#minipixel" x="12" y="6"/>
+        <use href="#ball" x="0" y="24"/>
+        <use href="#ball" x="9" y="24"/>
+        
+    </g>
+
+    <g id="fuckThePolice">
+        <use href="#fuck" x="0" y="0"/>
+        <use href="#fuck" x="29" y="0"/>
+        <use href="#fuck" x="58" y="0"/>
+        <use href="#fuck" x="87" y="0"/>
+        <use href="#fuck" x="116" y="0"/>
+        <use href="#fuck" x="145" y="0"/>
+    </g>
+    
+    <g id="chess">
+        <use href="#fuckThePolice"/>
+        <use href="#fuckThePolice" x="10.5" y="45"/>
+    </g>
+
+    <g id="verticalField">
+        <use href="#chess"/>
+        <use href="#chess" y="90"/>
+        <use href="#chess" y="180"/>
+        <use href="#chess" y="270"/>
+    </g>
+
+    <g id="fuckField">
+        <use href="#verticalField"/>
+        <use href="#verticalField" x="316"/>
+    </g>
+
+    <g id="fuckAnimation" clip-path="url(#fuckClip)">
+        <use href="#fuckField" x="154" y="-210">
+            <animate 
+                attributeName="y"
+                values="-210;-210;300;300"
+                keyTimes="0;0.64;0.96;1"
+                dur="5s"
+                repeatCount="indefinite"
+                calcMode="linear"
+            />
+        </use>
+    </g>
+
+    <g id="lineHorizon">
+        <use href="#pixel" x="0" y="0"/>
+        <use href="#pixel" x="30" y="0"/>
+        <use href="#pixel" x="60" y="0"/>
+        <use href="#pixel" x="90" y="0"/>
+        <use href="#pixel" x="120" y="0"/>
+        <use href="#pixel" x="150" y="0"/>
+    </g>
+
+    <g id="lineVertical">
+        <use href="#pixel" x="0" y="0"/>
+        <use href="#pixel" x="0" y="30"/>
+        <use href="#pixel" x="0" y="60"/>
+        <use href="#pixel" x="0" y="90"/>
+        <use href="#pixel" x="0" y="120"/>
+        <use href="#pixel" x="0" y="150"/>
+    </g>
+
+    <g id="pupil">
+        <use href="#pixel" x="0" y="0"/>
+        <use href="#pixel" x="30" y="0"/>
+        <use href="#pixel" x="0" y="30"/>
+        <use href="#pixel" x="30" y="30"/>
+    </g>
+
+    <g id="verticalRow">
+        <use href="#pixel" x="124" y="0"/>
+        <use href="#pixel" x="334" y="0"/>
+        <use href="#pixel" x="440" y="0"/>
+        <use href="#pixel" x="650" y="0"/>
+    </g>
+
+    <g id="verticals">
+        <g id="vertical-row-0">
+            <use href="#verticalRow" y="62"/>
+            <animate
+                attributeName="opacity"
+                values="1;0;0;0;1"
+                keyTimes="0;0.1;0.36;0.44;1"
+                dur="5s"
+                repeatCount="indefinite"
+                calcMode="discrete"
+            />
+        </g>
+        <g id="verticalRow1">
+            <use href="#verticalRow" y="92"/>
+            <animate
+                attributeName="opacity"
+                values="1;1;0;0;1"
+                keyTimes="0;0.1;0.36;0.44;1"
+                dur="5s"
+                repeatCount="indefinite"
+                calcMode="discrete"
+            />
+        </g>
+        <g id="verticalRow2">
+            <use href="#verticalRow" y="122"/>
+            <animate 
+                attributeName="opacity"
+                values="1;1;1;0;1"
+                keyTimes="0;0.1;0.36;0.44;1"
+                dur="5s"
+                repeatCount="indefinite"
+                calcMode="discrete"
+            />
+        </g>
+
+        <use href="#verticalRow" y="152"/>
+        <use href="#verticalRow" y="182"/>
+        <use href="#verticalRow" y="212"/>
+        
+    </g>
+
+    <g id="topHorizon">
+        <use href="#lineHorizon" x="30" y="0"/>
+    </g>
+    <g id="bottomHorizon">
+        <use href="#lineHorizon" x="30" y="210"/>
+    </g>
+
+    <g id="eye">
+        <use href="#pupil" x="150" y="90">
+            <animate
+                attributeName="x"
+                values="150;120;90;60;30;30;60;90;150"
+                keyTimes="0;0.1;0.14;0.18;0.22;0.36;0.4;0.44;1"
+                dur="5s"
+                repeatCount="indefinite"
+                calcMode="discrete"
+            />
+            <animate
+                attributeName="y"
+                values="90;60;30;60;90;120;90;120;90"
+                keyTimes="0;0.04;0.08;0.24;0.28;0.32;0.34;0.64;1"
+                dur="5s"
+                repeatCount="indefinite"
+                calcMode="discrete"
+            />
+        </use>
+
+        <use href="#topHorizon" x="0" y="0">
+            <animate
+                attributeName="y"
+                values="0;30;60;90;0"
+                keyTimes="0;0.1;0.36;0.44;1"
+                dur="5s"
+                repeatCount="indefinite"
+                calcMode="discrete"
+            />
+        </use>
+
+        <use href="#bottomHorizon" x="0" y="0"/>
+    </g>
+
+    <clipPath id="fuckClip">
+        <rect x="150" y="150" width="500" height="90"/>
+    </clipPath>
+
+</defs>
+
+<use href="#fuckAnimation"/>
+
+<use href="#verticals"/>
+<use href="#eye" x="124" y="32"/>
+<use href="#eye" x="440" y="32"/>
+
+<use href="#nikname" x="30" y="20" opacity="0">
+    <animate
+        attributeName="opacity"
+        values="0;1;0;1;0;1;1"
+        keyTimes="0;0.68;0.72;0.76;0.80;0.84;0.88"
+        dur="5s"
+        repeatCount="indefinite"
+        calcMode="discrete"
+    />
+</use>
+
+</svg>
